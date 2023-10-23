@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background:linear-gradient(244deg, #543a9c 24.62%, #615281 52.56%, #a79bb6 81.19%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.cabecalho{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    padding: 35px;
+    
+}
+.sidebar {
+    width: 0;
+    height: -100%;
+    background-color: #615281;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+    z-index: 1;
+    margin-left: -35px;
+}
+.show-sidebar{
+    width: 250px;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Righteous', sans-serif;
+    color: #FFFFFF
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #a79bb6;
+}
+
+#menu-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 35px;
+    gap: 20px;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF
+    
+    
+}
+
+#menu-button:hover {
+    background-color: #664d7a;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.tudo {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+#buttonGithub, #buttonLinkdln, #buttonBehance {
+    cursor: pointer;
+    background: none;
+    border: none;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 35px;
+    gap: 20px;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF
+    
+}
+#buttonGithub img {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+}
+#buttonLinkdln img {
+    width: 65px;
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+}
+#buttonBehance img {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+}
+
+
+.tudo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.texto1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    text-align: justify;
+   
+}
+
+.texto2, .texto3{
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    
+    
+}
+
+.texto3{
+    margin-bottom: 10%;
+}
+
+.texto4{
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    
+    
+}
